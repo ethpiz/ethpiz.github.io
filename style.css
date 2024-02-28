@@ -1,8 +1,8 @@
 #mainHeader{
     font-family: "Press Start 2P";
     color: white;
-    border-top: solid dotted;
-    border-bottom: solid dotted;
+    border-top: dotted;
+    border-bottom: dotted;
     border-color: white;
     padding: 10px;
 }
