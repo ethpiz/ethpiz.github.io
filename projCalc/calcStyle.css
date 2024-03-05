@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(160, 160, 160);
+    
+}
+#calculator{
+    font-family: 'Space Mono', 'Trebuchet MS';
+    background-color: rgb(50, 47, 47);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Space Mono','Trebuchet MS';
+    text-align: right; 
+    border: none;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(210, 210, 210);
+    color: rgb(174, 12, 12); 
+}
+#display::selection{
+    background-color: rgb(174, 12, 12);
+    color: rgb(50, 47, 47);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(186, 78, 78);
+    color: rgb(210, 210, 210);
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Space Mono', 'Trebuchet MS';
+}
+button::selection{
+    background-color: rgba(0, 0, 0, 0)
+}
+#plusBtn{
+    grid-row: span 2;
+}
+#zeroBtn{
+    grid-column: span 2;
+}
+#equalsBtn{
+    grid-row: span 2;
+}
+button:hover{
+    background-color:  rgb(216, 94, 94);
+}
+button:active{
+    background-color:  rgb(246, 119, 119);
+}
+.operatorBtn{
+    background-color: rgb(174, 12, 12);
+}
+.operatorBtn:hover{
+    background-color: rgb(218, 25, 25);
+}
+.operatorBtn:active{
+    background-color: rgb(242, 43, 43);
+}
