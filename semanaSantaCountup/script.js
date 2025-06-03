@@ -3,7 +3,7 @@ const hourEl = document.getElementById("hour");
 const minuteEl = document.getElementById("minute");
 const secondEl = document.getElementById("second");
 
-const pascuaTime = new Date("Apr 13, 2024 00:00:00").getTime();
+const pascuaTime = new Date("Apr 13, 2025 00:00:00").getTime();
 
 updateCountdown();
 
